@@ -1,5 +1,6 @@
 package com.example.dennis.journalapp;
 
+import android.app.LoaderManager;
 import android.content.ContentValues;
 import android.content.CursorLoader;
 import android.content.DialogInterface;
@@ -8,7 +9,7 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.NonNull;
-import android.support.v4.app.LoaderManager;
+//import android.support.v4.app.LoaderManager.LoaderCallbacks<D>;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -205,9 +206,8 @@ public class WriteJournal extends AppCompatActivity implements
                 null);                  // Default sort order
     }
 
-
     @Override
-    public void onLoadFinished(@NonNull android.support.v4.content.Loader<Cursor> loader, Cursor cursor) {
+    public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
         // Bail early if the cursor is null or there is less than 1 row in the cursor
         if (cursor == null || cursor.getCount() < 1) {
             return;
@@ -238,7 +238,7 @@ public class WriteJournal extends AppCompatActivity implements
     }
 
     @Override
-    public void onLoaderReset(@NonNull android.support.v4.content.Loader<Cursor> loader) {
+    public void onLoaderReset(Loader<Cursor> loader) {
         // If the loader is invalidated, clear out all the data from the input fields.
 
         EditText Heading = (EditText) findViewById(R.id.et_heading);
@@ -247,7 +247,10 @@ public class WriteJournal extends AppCompatActivity implements
         Heading.setText("");
         Body.setText("");
 
+
     }
+
+
 
 
 
