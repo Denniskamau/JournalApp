@@ -33,12 +33,30 @@ or use an emulator to run the application.
 You should see the initial screen that prompts you to signin with google.
 Make sure you are connected to the internet for this.
 
+![alt tag](https://res.cloudinary.com/dfpoyauet/image/upload/v1530468085/WhatsApp_Image_2018-07-01_at_20.37.02_2_w10fnk.jpg "Singup page")
+
 Click on the `new` menu to add a new entry
+
+
+![alt tag](https://res.cloudinary.com/dfpoyauet/image/upload/v1530468085/WhatsApp_Image_2018-07-01_at_20.37.02_1_p59bct.jpg "Add Journal")
 
 Insert the heading and body of the entry and click on the `save` menu to save the entry
 
+
+![alt tag](https://res.cloudinary.com/dfpoyauet/image/upload/v1530468085/WhatsApp_Image_2018-07-01_at_20.37.02_zudahx.jpg "Save")
+
+
 To edit an entry select it which will open it in an edit view where you 
 can edit and save using the `save` menu or delete using the `delete` menu.
+
+![alt tag](https://res.cloudinary.com/dfpoyauet/image/upload/v1530468084/WhatsApp_Image_2018-07-01_at_20.37.01_2_dzpdiv.jpg "View")
+
+
+![alt tag](https://res.cloudinary.com/dfpoyauet/image/upload/v1530468085/WhatsApp_Image_2018-07-01_at_20.37.01_1_wq8qzp.jpg "Edit")
+
+
+![alt tag](https://res.cloudinary.com/dfpoyauet/image/upload/v1530468084/WhatsApp_Image_2018-07-01_at_20.37.01_crn1zr.jpg "Delete")
+
 
 
 
