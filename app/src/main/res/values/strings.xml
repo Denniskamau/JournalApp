@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all_entries">Delete All Journals</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <!-- Toast message in editor when new journal has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_journal_successful">Journal saved</string>
+
+    <!-- Toast message in editor when new journal has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_journal_failed">Error with saving journal</string>
+    <string name="insert_heading">Insert Heading</string>
+    <string name="write_here">Write here</string>
+    <string name="title_edit">Edit Journal</string>
+
+    <string name="delete_journal_successful">Journal deleted</string>
+
+    <!-- Toast message in editor when current journal has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="delete_pet_failed">Error with deleting journal</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="delete_dialog_msg">Delete this JOURNAL?</string>
+    <string name="delete">Delete</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="discard">Discard</string>
+
+
+</resources>
