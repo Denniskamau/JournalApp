@@ -51,17 +51,17 @@ public class JournalCursorAdapter  extends CursorAdapter{
         // find the column for the journal attribute
         int headingColumnIndex = cursor.getColumnIndex(JournalContract.JournalEntry.COLUMN_HEADING);
         int bodyColumnIndex = cursor.getColumnIndex(JournalContract.JournalEntry.COLUMN_JOURNAL_ENTRY);
-        int dateColumnIndex = cursor.getColumnIndex(JournalContract.JournalEntry.COLUMN_DATE);
+       // int dateColumnIndex = cursor.getColumnIndex(JournalContract.JournalEntry.COLUMN_DATE);
 
         //Read the data from the cursor
         String heading = cursor.getString(headingColumnIndex);
         String body = cursor.getString(bodyColumnIndex);
-        String date = cursor.getString(dateColumnIndex);
+        //String date = cursor.getString(dateColumnIndex);
 
         SimpleDateFormat sdf = new SimpleDateFormat("EE dd MM, yyyy HH:mm", Locale.ENGLISH);
         // give a timezone reference for formatting (see comment at the bottom)
 
-        String formattedDate = sdf.format(date);
+        //String formattedDate = sdf.format(date);
 
         //Update the textview with the data
         headingTextView.setText(heading);

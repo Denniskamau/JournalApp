@@ -21,7 +21,7 @@ public class JournalDbHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "journals.db";
 
     //Db version
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 1;
 
     public JournalDbHelper(Context context){
 
@@ -37,7 +37,6 @@ public class JournalDbHelper extends SQLiteOpenHelper {
         String SQL_CREATE_JOURNAL_TABLE =  "CREATE TABLE " + JournalEntry.TABLE_NAME + " ("
                 + JournalEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + JournalEntry.COLUMN_HEADING + " TEXT NOT NULL, "
-                + JournalEntry.COLUMN_DATE +" TEXT NOT NULL, "
                 + JournalEntry.COLUMN_JOURNAL_ENTRY + " TEXT);";
 
         Log.e("QUERY", SQL_CREATE_JOURNAL_TABLE);

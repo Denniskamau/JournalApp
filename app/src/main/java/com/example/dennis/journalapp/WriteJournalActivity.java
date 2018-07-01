@@ -90,7 +90,7 @@ public class WriteJournalActivity extends AppCompatActivity implements
         ContentValues values = new ContentValues();
         values.put(JournalContract.JournalEntry.COLUMN_HEADING,heading);
         values.put(JournalContract.JournalEntry.COLUMN_JOURNAL_ENTRY,body);
-        values.put(JournalContract.JournalEntry.COLUMN_DATE,date);
+        //values.put(JournalContract.JournalEntry.COLUMN_DATE,date);
 
         // Insert a new journal into the provider, returning the content URI for the new journal.
         Uri newUri = getContentResolver().insert(JournalContract.JournalEntry.CONTENT_URI, values);
