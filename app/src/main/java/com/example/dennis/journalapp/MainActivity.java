@@ -2,7 +2,6 @@ package com.example.dennis.journalapp;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -114,7 +113,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
-                            startActivity(new Intent(MainActivity.this, journalPage.class));
+                            startActivity(new Intent(MainActivity.this, JournalPageActivity.class));
                             finish();
                         } else {
                             // If sign in fails, display a message to the user.

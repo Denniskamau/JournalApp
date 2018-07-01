@@ -33,5 +33,6 @@ public final class JournalContract {
         public static final String _ID = BaseColumns._ID;
         public static final String COLUMN_HEADING ="heading";
         public static final String COLUMN_JOURNAL_ENTRY ="entry";
+        public static final String COLUMN_DATE="date";
     }
 }
