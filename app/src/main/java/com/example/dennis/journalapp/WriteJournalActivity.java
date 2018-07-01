@@ -329,6 +329,7 @@ public class WriteJournalActivity extends AppCompatActivity implements
                         Toast.LENGTH_SHORT).show();
             } else {
                 // Otherwise, the delete was successful and we can display a toast.
+                startActivity(new Intent(WriteJournalActivity.this, JournalPageActivity.class));
                 Toast.makeText(this, getString(R.string.delete_journal_successful),
                         Toast.LENGTH_SHORT).show();
             }
