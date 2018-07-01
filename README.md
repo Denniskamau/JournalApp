@@ -1,45 +1,44 @@
 # Journal App
-
-An android mobile application where a user can write,view and edit the entries of theire day.
+Journal App is a mobile application for the Android platform.With it a user can Login with their google account ,Enter a new entry of their day,View the entry,Edit the entry and even delete it.
 
 ## Getting Started
+Git clone the repository
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+`git clone https://github.com/Denniskamau/JournalApp/`
+
+Import the aplication on android studio
+
+ `File -> Import -> "Existing Projects into your workspace"`
+ 
+Go to the path where you cloned the Repo and click open.This open the project on android studio.
+  
+At this point, you should be able to build and run the project in the Android device or emulator.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You should have java installed.If not here is a link
 
-```
-Give examples
-```
+`https://java.com/en/download/`
+
+Setup uptodate development environment
+
+Use application level `7.0`  to run the application
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+After everything is ready and up to date,connect and android phone to your laptop 
+or use an emulator to run the application.
 
-Say what the step will be
+You should see the initial screen that prompts you to signin with google.
+Make sure you are connected to the internet for this.
 
-```
-Give the example
-```
+Click on the `new` menu to add a new entry
 
-And repeat
+Insert the heading and body of the entry and click on the `save` menu to save the entry
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+To edit an entry select it which will open it in an edit view where you 
+can edit and save using the `save` menu or delete using the `delete` menu.
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
